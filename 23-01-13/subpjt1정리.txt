@@ -1,0 +1,18 @@
+1. 웹페이지 띄우기
+- backend > 우클릭 > Code(으)로 열기
+- new Terminal
+> npm init
+> npm start
+- frontend > 우클릭 > Code(으)로 열기
+- new Terminal
+> npm init
+> npm start
+
+2. src
+- 보통 만질 수 있는 파일이 이 안에 들어있음
+- common
+- components
+- context
+- layout
+- pages
+- App.js

@@ -1,0 +1,24 @@
+1. Cloning
+- 원격과 로컬 연결하기(로컬에 폴더 생성)
+- clone 할 repo > code 버튼 > url 복사 > 우클릭 > git bash here
+> git clone [url]
+
+
+2. Add, Commit, Push
+- 변경사항이 생겼을 때 파일 올리기
+- .git 파일이 있는 폴더 > 우클릭 > git bash here
+> git add "파일명(or 폴더명)" (or git add .)
+> git commit -m "메모"
+> git push origin [브랜치명] (branch 에서 올릴 경우만, main 이면 git push)
+
+
+3. merge request
+- 여러 사람이 main 에 push 할 때 생기는 conflict 방지
+- switch 후에 add, commit, push 똑같이!
+> git branch 브랜치명
+> git switch 브랜치명
+
+
+4. 기타
+> git status (변경사항 확인)
+> git config credential.helper store (자격 증명 관리자도 안먹힐 때, 이것도 안먹히면 토큰 생성하세요)
